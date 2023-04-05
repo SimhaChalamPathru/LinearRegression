@@ -29,4 +29,16 @@ python setup.py install  # but it is not word in company laptop
 > git remote rm origin      # To remove default origin
 # ls -a and git remote -v   # it shows empty
 
+
+git init
+git add .
+git remote add origin {Github REPo URL}
+git commit -m "initial commit"
+git branch -M main
+git push origin main
+
+
+
+git clone https://github.com/SimhaChalamPathru/LinearRegression.git
+
 ```
